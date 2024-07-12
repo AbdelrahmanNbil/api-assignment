@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.head{
+    background-image: url(../img/banner.png);
+    background-size:cover ;
+    background-position: center center;
+}
+body{
+    background-color: #1E202B;
+
+}
+li a{
+    color: white !important;
+}
+li  {
+   
+    border-radius: 20px;
+    padding: 0 15px ;
+    margin-inline: 10px;
+    transition: all 0.25s ;
+}
+li.active{
+    border: 2px solid #009AD8;
+}
+li .active a{
+    color: #009AD8 !important;
+ 
+}
+
+
+
+nav li:hover{
+    border: 2px solid #009AD8;
+}
+
+.head{
+    position: relative;
+}
+
+.search-input{
+    border-radius: 20px;
+    padding:11px 20px;
+    background-color: #1E202B;
+    color: grey !important;
+    border: none;
+    
+}
+.search-buttun{
+    border-radius: 20px;
+    padding: 6px 30px;
+    border: none;
+    position: absolute;
+    right:120px;
+
+}
+
+.card{
+    color: aliceblue;
+    background-color: #1E202B;
+    height: 300px;
+}
+.card1{
+    background-color: #323544;
+}
+.card3{
+    background-color: #323544;
+}
+.card2{
+    background-color: #262936;
+}
+
+.temp{
+
+    font-size: 50px;
+}
+footer{
+    background-color: #323544;
+
+}
+
+.user-email{
+    position: relative;
+    display: flex;
+}
+
+.user-email input{
+    width: 50%;
+    border-radius: 20px;
+    padding:11px 20px;
+    background-color: #1E202B;
+    color: grey !important;
+    border: none;
+}
+.user-email button{
+    border-radius: 20px;
+    padding: 6px 30px;
+    border: none;
+    position: absolute;
+    top: 30px;
+    right:562px;
+}
+
+.icons i{
+    color: #0D6EFD;
+    font-size: 25px;
+    padding-inline: 15px;
+}
